@@ -65,13 +65,13 @@ A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidat
 
 
 5.	CADASTRO FRENTISTA
-Nome de Usuário
-Nome do Frentista
-Nome de Usuário
-Posto de Combustível  (Select) Chave Estrangeira
-Email - (Campo Não Obrigatório)
-Telefone - (Campo Não Obrigatório)
-Senha de Acesso
+- Nome de Usuário
+- Nome do Frentista
+- Nome de Usuário
+- Posto de Combustível  (Select) Chave Estrangeira
+- Email - (Campo Não Obrigatório)
+- Telefone - (Campo Não Obrigatório)
+- Senha de Acesso
 
 6.	CADASTRO DE TIPO DE COMBUSTÍVEL
 - Tipo Combustível:  Diesel, Etanol, Flex, GNV, Outros  ( Campo Texto)
