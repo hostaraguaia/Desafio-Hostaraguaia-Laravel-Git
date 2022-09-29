@@ -1,7 +1,7 @@
 # Desafio-Hostaraguaia-Laravel-Git
 Desafio teste Laravel 9
 
-A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador mobile Flutter, de vários níveis.
+A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador PHP Laravel, de vários níveis.
 
 
 ## Instruções de entrega do desafio
