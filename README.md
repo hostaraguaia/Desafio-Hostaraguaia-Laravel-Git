@@ -120,4 +120,4 @@ Seu projeto será avaliado de acordo com os seguintes critérios.
 1. Sua aplicação preenche os requerimentos básicos?
 2. Estrutura de código utilizando Clean Architecture
 3. Injeção de depedência em laravel
-4 - Layout 
+4. Layout 
