@@ -50,7 +50,7 @@ A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidat
 
 4.	CADASTRO DE POSTO DE COMBUSTIVEL
 
-- Consulta do posto de combustivel deverá ser preenchida o cnpj e deverá popular os campos abaixo utilizando  API FREE do Receitaws que devolverá um json de resposta https://receitaws.com.br/v1/cnpj/#NUMERO_CNPJ
+- Consulta do posto de combustivel deverá ser preenchida o cnpj e deverá popular os campos abaixo utilizando  API FREE do Receitaws que devolverá um json de resposta https://receitaws.com.br/v1/cnpj/#NUMERO_CNPJ , consulta deverá se feita no intervalo entre consulta e outra entre 3 minutos. 
 
 - Nome de Fantasia  (Campo Obrigatório)
 - Razão Social  (Campo Texto)
