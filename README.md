@@ -20,10 +20,10 @@ A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidat
 
 
 1.	CADASTRO DE TIPO DE USUÁRIO
--Administrador
--Usuário Padrão
--Frentista
--Motorista
+- Administrador
+- Usuário Padrão
+- Frentista
+- Motorista
 
 2.	CADASTRO DE USUÁRIOS DO SISTEMA
 Nome
