@@ -14,9 +14,10 @@ A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidat
 
 * Você deve criar um sistema de cadastros em Laravel 9 conforme especificado em abaixo de modo que possa utilizar inserção, consulta, leitura e exclusão por meio do SoftDeletes 
 * Criar API com JWT, de modo que possa consumir restfull para inserir, consultar, deletar
-* Gerar relatório em PDF atráves do sistema web só condutor. 
+* Gerar relatório em PDF atráves do sistema web só com dados dos condutores. 
 * Layout será a seu critério, caso dejese utiliza temas pode fica a vontade.
 (Não utiliza structum ou outro tipop de api que não seja JWT).
+* Utilizar banco MYSQL
 
 
 1.	CADASTRO DE TIPO DE USUÁRIO
@@ -110,6 +111,7 @@ Será um grande diferencial:
 - Se Utilizar o conceitos de arquitetura como (DDD, Clean Architecturee) com Laravel
 - Injeção de dependência.
 - JWT API
+- Docker
 - ter conhecimento em desenvolvimento web
 - Layout 
 
