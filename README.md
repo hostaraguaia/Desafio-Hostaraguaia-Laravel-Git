@@ -98,7 +98,6 @@ A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidat
 - Observação  do Veículos - Campo Não Obrigatório
 - Tanque Capacidade (Campo Numérico Máximo 3 Dígitos) Campo Não Obrigatório
 - Limite de Troca de Óleo (Campo Numérico Máximo 5 Dígitos) Campo Não Obrigatório
-- Centro de Custo (Select)
 - Condutor (Select) 
 - SEGURADORA: Nome Seguradora,  Nº Apolice, Vencimento, Valor - Não Obrigatório
 
