@@ -19,6 +19,7 @@ A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidat
 (Não utiliza structum ou outro tipop de api que não seja JWT).
 * Utilizar banco MYSQL , redis a seu critério. 
 * pode ser utilizar template de design prontos, desde que siga o modelo de estrutura como no  exemplo de clean Architecture https://github.com/nazonohito51/clean-architecture-sample
+* Não utiliza react ou angular
 
 1.	CADASTRO DE TIPO DE USUÁRIO
 - Administrador
