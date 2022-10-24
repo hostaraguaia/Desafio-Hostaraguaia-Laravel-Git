@@ -1,0 +1,56 @@
+version: "3.7"
+services:
+  app:
+    build:
+      args:
+        user: cacesa
+        uid: 1000
+      context: ./
+      dockerfile: DockerFile
+    image: vehicle-control
+    container_name: vehicle-control-app
+    restart: unless-stopped
+    working_dir: /var/www/
+    command: bash -c "php artisan migrate && php artisan passport:install && php artisan module:seed"
+    # docker exec vehicle-control-app php artisan migrate && php artisan passport:install && php artisan module:seed
+    depends_on:
+      - db
+    volumes:
+      - ./:/var/www
+    networks:
+      - vehicle-control
+
+  db:
+    image: mysql:8
+    container_name: vehicle-control-db
+    restart: unless-stopped
+    tty: true
+    environment:
+      MYSQL_DATABASE: vehicles
+      MYSQL_ROOT_PASSWORD: pass
+      MYSQL_PASSWORD: pass
+      MYSQL_USER: cacodes
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./docker-compose/mysql:/var/lib/mysql
+    networks:
+      - vehicle-control
+
+  nginx:
+    image: nginx:stable-alpine
+    container_name: vehicle-control-nginx
+    restart: unless-stopped
+    ports:
+      - 8000:80
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d/
+    networks:
+      - vehicle-control
+
+networks:
+  vehicle-control:
+    driver: bridge
+
+    

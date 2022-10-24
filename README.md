@@ -3,7 +3,6 @@ Desafio teste Laravel 9
 
 A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidatos à vagas de programador PHP Laravel, de vários níveis.
 
-
 ## Instruções de entrega do desafio
 
 1. Faça um clone deste repositório.
@@ -16,9 +15,9 @@ A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidat
 * Criar API com JWT, de modo que possa consumir restfull para inserir, consultar, deletar
 * Gerar relatório em PDF atráves do sistema web só com dados dos condutores. 
 * Layout será a seu critério, caso dejese utiliza temas pode fica a vontade.
-(Não utiliza structum ou outro tipop de api que não seja JWT).
+(Não utilize structum ou outro tipo de api que não seja JWT).
 * Utilizar banco MYSQL , redis a seu critério. 
-* pode ser utilizar template de design prontos, desde que siga o modelo de estrutura como no  exemplo de clean Architecture https://github.com/nazonohito51/clean-architecture-sample
+* Pode utilizar template de design prontos, desde que siga o modelo de estrutura como no exemplo de clean Architecture https://github.com/nazonohito51/clean-architecture-sample
 * Não utiliza react ou angular
 
 1.	CADASTRO DE TIPO DE USUÁRIO
@@ -43,8 +42,8 @@ A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidat
 - Matricula (Campo Texto) - Não obrigatório
 - CNH (Campo Numérico) - Não obrigatório
 - Nascimento - Não obrigatório
-- Telefone (Campo Numérico) - Não obrigatório
 - Tipo Contratação (Campo Texto) - Não obrigatório
+- Telefone (Campo Numérico) - Não obrigatório
 - Celular 1 - (Campo Numérico  Não obrigatório
 - Celular 2 - (Campo Numérico  Não obrigatório
 - Ativo (Select  Sim ou Não) Ativa e Desativa Ordem de Abastecimento
@@ -57,21 +56,23 @@ A idéia deste desafio é nos permitir avaliar melhor as habilidades de candidat
 - Nome de Fantasia  (Campo Obrigatório)
 - Razão Social  (Campo Texto)
 - CNPJ:  (Campo Obrigatório)
-- End:  (Campo Não Obrigatório)
+
+- Endereço:  (Campo Não Obrigatório)
 - CEP (Campo Não Obrigatório)
 - Complemento (Campo Não Obrigatório)
 - Bairro (Campo Não Obrigatório)
 - Cidade – (Campo Não Obrigatório)
 - Responsável - (Campo Não Obrigatório)
 - Meios de Acesso de Login do Posto pelo CNPJ
+
 - Telefone (Campo Não Obrigatório)
+
 - Email - (Campo Não Obrigatório)
 - Campo Senha e Alterar Senha
 
-
 5.	CADASTRO FRENTISTA
 - Nome de Usuário
-- Nome do Frentista
+- Nome do Frentista 
 - Nome de Usuário
 - Posto de Combustível  (Select) Chave Estrangeira
 - Email - (Campo Não Obrigatório)

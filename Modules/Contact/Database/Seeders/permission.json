@@ -1,0 +1,202 @@
+{
+    "permissions": [
+        {
+            "name": "Permission for Accessing the Resource Address",
+            "code": "contact.address",
+            "type": "item",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing and Searching in the Resource Address",
+            "code": "contact.address.show",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing, Searching and Exporting in datatable format on the Resource Address",
+            "code": "contact.address.index",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Creating in the Resource Address",
+            "code": "contact.address.store",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Editing in the Resource Address",
+            "code": "contact.address.update",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Deleting in the Resource Address",
+            "code": "contact.address.destroy",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Recovering in the Resource Address",
+            "code": "contact.address.recover",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Auditing in the Resource Address",
+            "code": "contact.address.audit",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Blocking in the Resource Address",
+            "code": "contact.address.block",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Unblocking in the Resource Address",
+            "code": "contact.address.unblock",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Inactivate in the Resource Address",
+            "code": "contact.address.inactivate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Activate in the Resource Address",
+            "code": "contact.address.activate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Accessing the Resource Contactinfo",
+            "code": "contact.contactinfo",
+            "type": "item",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing and Searching in the Resource Contactinfo",
+            "code": "contact.contactinfo.show",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing, Searching and Exporting in datatable format on the Resource Contactinfo",
+            "code": "contact.contactinfo.index",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Creating in the Resource Contactinfo",
+            "code": "contact.contactinfo.store",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Editing in the Resource Contactinfo",
+            "code": "contact.contactinfo.update",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Deleting in the Resource Contactinfo",
+            "code": "contact.contactinfo.destroy",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Recovering in the Resource Contactinfo",
+            "code": "contact.contactinfo.recover",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Auditing in the Resource Contactinfo",
+            "code": "contact.contactinfo.audit",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Blocking in the Resource Contactinfo",
+            "code": "contact.contactinfo.block",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Unblocking in the Resource Contactinfo",
+            "code": "contact.contactinfo.unblock",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Inactivate in the Resource Contactinfo",
+            "code": "contact.contactinfo.inactivate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Activate in the Resource Contactinfo",
+            "code": "contact.contactinfo.activate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        }
+    ],
+    "group": [
+        "Administrador",
+        "Presidencia",
+        "Cliente",
+        "Teste"
+    ]
+}
