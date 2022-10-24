@@ -1,0 +1,394 @@
+{
+    "permissions": [
+        {
+            "name": "Permission for Accessing the Resource Vehicle",
+            "code": "vehicle.vehicle",
+            "type": "item",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing and Searching in the Resource Vehicle",
+            "code": "vehicle.vehicle.show",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing, Searching and Exporting in datatable format on the Resource Vehicle",
+            "code": "vehicle.vehicle.index",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Creating in the Resource Vehicle",
+            "code": "vehicle.vehicle.store",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Editing in the Resource Vehicle",
+            "code": "vehicle.vehicle.update",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Deleting in the Resource Vehicle",
+            "code": "vehicle.vehicle.destroy",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Recovering in the Resource Vehicle",
+            "code": "vehicle.vehicle.recover",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Auditing in the Resource Vehicle",
+            "code": "vehicle.vehicle.audit",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Blocking in the Resource Vehicle",
+            "code": "vehicle.vehicle.block",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Unblocking in the Resource Vehicle",
+            "code": "vehicle.vehicle.unblock",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Inactivate in the Resource Vehicle",
+            "code": "vehicle.vehicle.inactivate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Activate in the Resource Vehicle",
+            "code": "vehicle.vehicle.activate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Accessing the Resource Fueltype",
+            "code": "vehicle.fueltype",
+            "type": "item",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing and Searching in the Resource Fueltype",
+            "code": "vehicle.fueltype.show",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing, Searching and Exporting in datatable format on the Resource Fueltype",
+            "code": "vehicle.fueltype.index",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Creating in the Resource Fueltype",
+            "code": "vehicle.fueltype.store",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Editing in the Resource Fueltype",
+            "code": "vehicle.fueltype.update",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Deleting in the Resource Fueltype",
+            "code": "vehicle.fueltype.destroy",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Recovering in the Resource Fueltype",
+            "code": "vehicle.fueltype.recover",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Auditing in the Resource Fueltype",
+            "code": "vehicle.fueltype.audit",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Blocking in the Resource Fueltype",
+            "code": "vehicle.fueltype.block",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Unblocking in the Resource Fueltype",
+            "code": "vehicle.fueltype.unblock",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Inactivate in the Resource Fueltype",
+            "code": "vehicle.fueltype.inactivate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Activate in the Resource Fueltype",
+            "code": "vehicle.fueltype.activate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Accessing the Resource Insurer",
+            "code": "vehicle.insurer",
+            "type": "item",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing and Searching in the Resource Insurer",
+            "code": "vehicle.insurer.show",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing, Searching and Exporting in datatable format on the Resource Insurer",
+            "code": "vehicle.insurer.index",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Creating in the Resource Insurer",
+            "code": "vehicle.insurer.store",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Editing in the Resource Insurer",
+            "code": "vehicle.insurer.update",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Deleting in the Resource Insurer",
+            "code": "vehicle.insurer.destroy",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Recovering in the Resource Insurer",
+            "code": "vehicle.insurer.recover",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Auditing in the Resource Insurer",
+            "code": "vehicle.insurer.audit",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Blocking in the Resource Insurer",
+            "code": "vehicle.insurer.block",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Unblocking in the Resource Insurer",
+            "code": "vehicle.insurer.unblock",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Inactivate in the Resource Insurer",
+            "code": "vehicle.insurer.inactivate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Activate in the Resource Insurer",
+            "code": "vehicle.insurer.activate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Accessing the Resource Vehicledriversmap",
+            "code": "vehicle.vehicledriversmap",
+            "type": "item",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing and Searching in the Resource Vehicledriversmap",
+            "code": "vehicle.vehicledriversmap.show",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing, Searching and Exporting in datatable format on the Resource Vehicledriversmap",
+            "code": "vehicle.vehicledriversmap.index",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Creating in the Resource Vehicledriversmap",
+            "code": "vehicle.vehicledriversmap.store",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Editing in the Resource Vehicledriversmap",
+            "code": "vehicle.vehicledriversmap.update",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Deleting in the Resource Vehicledriversmap",
+            "code": "vehicle.vehicledriversmap.destroy",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Recovering in the Resource Vehicledriversmap",
+            "code": "vehicle.vehicledriversmap.recover",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Auditing in the Resource Vehicledriversmap",
+            "code": "vehicle.vehicledriversmap.audit",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Blocking in the Resource Vehicledriversmap",
+            "code": "vehicle.vehicledriversmap.block",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Unblocking in the Resource Vehicledriversmap",
+            "code": "vehicle.vehicledriversmap.unblock",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Inactivate in the Resource Vehicledriversmap",
+            "code": "vehicle.vehicledriversmap.inactivate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Activate in the Resource Vehicledriversmap",
+            "code": "vehicle.vehicledriversmap.activate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        }
+    ],
+    "group": [
+        "Administrador",
+        "Presidencia",
+        "Cliente",
+        "Teste"
+    ]
+}

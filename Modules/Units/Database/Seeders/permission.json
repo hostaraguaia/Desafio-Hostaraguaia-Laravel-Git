@@ -1,0 +1,106 @@
+{
+    "permissions": [
+        {
+            "name": "Permission for Accessing the Resource Fuelstation",
+            "code": "units.fuelstation",
+            "type": "item",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing and Searching in the Resource Fuelstation",
+            "code": "units.fuelstation.show",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing, Searching and Exporting in datatable format on the Resource Fuelstation",
+            "code": "units.fuelstation.index",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Creating in the Resource Fuelstation",
+            "code": "units.fuelstation.store",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Editing in the Resource Fuelstation",
+            "code": "units.fuelstation.update",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Deleting in the Resource Fuelstation",
+            "code": "units.fuelstation.destroy",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Recovering in the Resource Fuelstation",
+            "code": "units.fuelstation.recover",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Auditing in the Resource Fuelstation",
+            "code": "units.fuelstation.audit",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Blocking in the Resource Fuelstation",
+            "code": "units.fuelstation.block",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Unblocking in the Resource Fuelstation",
+            "code": "units.fuelstation.unblock",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Inactivate in the Resource Fuelstation",
+            "code": "units.fuelstation.inactivate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Activate in the Resource Fuelstation",
+            "code": "units.fuelstation.activate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        }
+    ],
+    "group": [
+        "Administrador",
+        "Presidencia",
+        "Cliente",
+        "Teste"
+    ]
+}

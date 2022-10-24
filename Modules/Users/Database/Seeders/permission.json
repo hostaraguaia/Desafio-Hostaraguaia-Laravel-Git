@@ -1,0 +1,298 @@
+{
+    "permissions": [
+        {
+            "name": "Permission for Accessing the Resource User",
+            "code": "users.user",
+            "type": "item",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing and Searching in the Resource User",
+            "code": "users.user.show",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing, Searching and Exporting in datatable format on the Resource User",
+            "code": "users.user.index",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Creating in the Resource User",
+            "code": "users.user.store",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Editing in the Resource User",
+            "code": "users.user.update",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Deleting in the Resource User",
+            "code": "users.user.destroy",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Recovering in the Resource User",
+            "code": "users.user.recover",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Auditing in the Resource User",
+            "code": "users.user.audit",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Blocking in the Resource User",
+            "code": "users.user.block",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Unblocking in the Resource User",
+            "code": "users.user.unblock",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Inactivate in the Resource User",
+            "code": "users.user.inactivate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Activate in the Resource User",
+            "code": "users.user.activate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Accessing the Resource Driver",
+            "code": "users.driver",
+            "type": "item",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing and Searching in the Resource Driver",
+            "code": "users.driver.show",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing, Searching and Exporting in datatable format on the Resource Driver",
+            "code": "users.driver.index",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Creating in the Resource Driver",
+            "code": "users.driver.store",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Editing in the Resource Driver",
+            "code": "users.driver.update",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Deleting in the Resource Driver",
+            "code": "users.driver.destroy",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Recovering in the Resource Driver",
+            "code": "users.driver.recover",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Auditing in the Resource Driver",
+            "code": "users.driver.audit",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Blocking in the Resource Driver",
+            "code": "users.driver.block",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Unblocking in the Resource Driver",
+            "code": "users.driver.unblock",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Inactivate in the Resource Driver",
+            "code": "users.driver.inactivate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Activate in the Resource Driver",
+            "code": "users.driver.activate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Accessing the Resource Attendant",
+            "code": "users.attendant",
+            "type": "item",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing and Searching in the Resource Attendant",
+            "code": "users.attendant.show",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Listing, Searching and Exporting in datatable format on the Resource Attendant",
+            "code": "users.attendant.index",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Creating in the Resource Attendant",
+            "code": "users.attendant.store",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Editing in the Resource Attendant",
+            "code": "users.attendant.update",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Deleting in the Resource Attendant",
+            "code": "users.attendant.destroy",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Recovering in the Resource Attendant",
+            "code": "users.attendant.recover",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Auditing in the Resource Attendant",
+            "code": "users.attendant.audit",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Blocking in the Resource Attendant",
+            "code": "users.attendant.block",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Unblocking in the Resource Attendant",
+            "code": "users.attendant.unblock",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Inactivate in the Resource Attendant",
+            "code": "users.attendant.inactivate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        },
+        {
+            "name": "Permission for Activate in the Resource Attendant",
+            "code": "users.attendant.activate",
+            "type": "rotue",
+            "status": "active",
+            "icon": null,
+            "icon_type": null
+        }
+    ],
+    "group": [
+        "Administrador",
+        "Presidencia",
+        "Cliente",
+        "Teste"
+    ]
+}

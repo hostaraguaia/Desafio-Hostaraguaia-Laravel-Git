@@ -1,0 +1,25 @@
+{
+    "name": "caiocesar173/units",
+    "description": "",
+    "authors": [
+        {
+            "name": "caiocesar173",
+            "email": "caiocesar173caiocesar173@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Units\\Providers\\UnitsServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Units\\": ""
+        }
+    }
+}

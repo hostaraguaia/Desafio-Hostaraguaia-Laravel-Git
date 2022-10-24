@@ -1,0 +1,25 @@
+{
+    "name": "caiocesar173/users",
+    "description": "",
+    "authors": [
+        {
+            "name": "caiocesar173",
+            "email": "caiocesar173caiocesar173@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Users\\Providers\\UsersServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Users\\": ""
+        }
+    }
+}

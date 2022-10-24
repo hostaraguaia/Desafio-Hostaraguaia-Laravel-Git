@@ -1,0 +1,25 @@
+{
+    "name": "caiocesar173/contact",
+    "description": "",
+    "authors": [
+        {
+            "name": "caiocesar173",
+            "email": "caiocesar173caiocesar173@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Contact\\Providers\\ContactServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Contact\\": ""
+        }
+    }
+}
