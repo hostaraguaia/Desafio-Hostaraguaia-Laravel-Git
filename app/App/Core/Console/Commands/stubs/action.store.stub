@@ -1,0 +1,15 @@
+<?php
+
+namespace Crud\Domain\TipoCombustivel\Actions;
+
+use Crud\Domain\TipoCombustivel\DTO\TipoCombustivelData;
+use {{ namespacedModel }};
+
+
+final class {{ class }}
+{
+    public function __invoke(TipoCombustivelData $data): TipoCombustivel
+    {
+        return {{ model }}::create($data->toArray());
+    }
+}
