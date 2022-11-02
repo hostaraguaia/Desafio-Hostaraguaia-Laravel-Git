@@ -1,0 +1,44 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ namespacedModel }};
+use Crud\App\Core\Actions\Actionable;
+use Illuminate\Contracts\Pagination\LengthAwarePaginator;
+
+class {{ class }} extends Actionable
+{
+
+    /**
+     * @param int $qtdPagina
+     * @param bool|null $selectOptions
+     * @param bool $lixeira
+     * @param bool $api
+     * @return array|LengthAwarePaginator|Collection
+     */
+    public function handle(
+        int $qtdPagina = 15,
+        bool|null $selectOptions = false,
+        bool $lixeira = false,
+        bool $api = false,
+    )
+    {
+        if($api === true)
+           return {{ model }}::all();
+
+        if ($selectOptions === false) {
+
+            if($lixeira === true)
+                return {{ model }}::onlyTrashed()->paginate($qtdPagina);
+
+            return {{ model }}::query()->paginate($qtdPagina);
+
+        } else {
+            foreach ({{ model }}::all() as $item) {
+                $items[$item->id] = $item->nome;
+            }
+
+            return $items;
+        }
+    }
+}
